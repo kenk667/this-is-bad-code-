@@ -8,7 +8,7 @@ const Weather = () => {
   const [weather, setWeather] = useState(null);
 
   const getWeather = async (city) => {
-    const apiKey = '7eb5d654851deebb3b5d072f81c12047';
+    const apiKey = 'key_here';
         const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     try {
